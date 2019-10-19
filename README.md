@@ -55,4 +55,15 @@ Finally the voxels have the format: 60\*10\*32\*32, where 60 represents the time
 ## Pretrained Classifiers and Preprocessed Dataset:
 The pretrained Bi-directional LSTM Classifier (90\% accuracy) and Time-distributed CNN + Bi-directional LSTM Classifier (92\% accuracy) along with the preprocessed training and test dataset are available [here.](https://drive.google.com/drive/folders/1jVk28wr2He9EdXPwbfCeic1GT6XBzJFD?usp=sharing) The size of preprocessed dataset is around 70 GB. Classifiers code in the repo has the data loading code for the preprocessed dataset. The trained classifiers expects the test data in the same format as in the classifier training code files. The classifier can be loaded using the keras load_model function.
 
-
+## Cite:
+You can cite our [paper](https://dl.acm.org/citation.cfm?id=3356768) if you have used this code in any of your projects:
+```
+@inproceedings{singh2019radhar,
+  title={RadHAR: Human Activity Recognition from Point Clouds Generated through a Millimeter-wave Radar},
+  author={Singh, Akash Deep and Sandha, Sandeep Singh and Garcia, Luis and Srivastava, Mani},
+  booktitle={Proceedings of the 3rd ACM Workshop on Millimeter-wave Networks and Sensing Systems},
+  pages={51--56},
+  year={2019},
+  organization={ACM}
+}
+```
