@@ -1,7 +1,7 @@
 # RadHAR
 RadHAR:  Human Activity Recognition from Point Clouds Generated through a Millimeter-wave Radar
 
-This repo contains the implementation for the paper: *RadHAR: Human Activity Recognition from Point Clouds Generated through a Millimeter-wave Radar* accepted in the 3rd ACM Workshop on Millimeter-Wave Networks and Sensing Systems (mmNets) 2019.
+This repo contains the implementation for the paper: [*RadHAR: Human Activity Recognition from Point Clouds Generated through a Millimeter-wave Radar*](https://dl.acm.org/citation.cfm?id=3356768) presented at the 3rd ACM Workshop on Millimeter-Wave Networks and Sensing Systems (mmNets) 2019 (co-located with MobiCom).
 
 ### Authors
 Akash Deep Singh, Sandeep Singh Sandha, Luis Garcia, Mani Srivastava
