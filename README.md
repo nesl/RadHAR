@@ -30,7 +30,7 @@ intensity: 13.6172780991  # Radar measured intensity in dB
 [For more information about the ROS package used to collect data and its description, please click here!](https://github.com/radar-lab/ti_mmwave_rospkg)
 
 ## Data Preprocessing
-Data preprocessing is done by extracting by the voxels. Voxel extraction code is available [here.](https://github.com/nesl/RadHAR/tree/master/DataPreprocessing). The file have variables which need to be set to the path of the raw data folders. The path is controlled using the below variables.
+Data preprocessing is done by extracting by the voxels. Voxel extraction code is available [here](https://github.com/nesl/RadHAR/tree/master/DataPreprocessing). The file have variables which need to be set to the path of the raw data folders. The path is controlled using the below variables.
 
 ```
 parent_dir = 'Path_to_training_or_test_data'
